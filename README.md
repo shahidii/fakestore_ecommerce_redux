@@ -1,3 +1,5 @@
+# This repository contain's a sample ecommerce frontend using fakestoreapi , technology used to create this frontend project are React Js , and Redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
