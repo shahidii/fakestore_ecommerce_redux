@@ -1,0 +1,17 @@
+29-09-2024
+
+completed todo list
+1. product- detail page
+
+Pendings
+1. Position - fixed to navbar problem
+2. Product card height problem in products page
+3. No producst found problem in product detail page
+4. Reviw rating problem in products page and Productpage new css problems
+
+
+To do
+1. Login page using fakestore or dummy or any other api
+2. Sign up page
+3. Add to cart button
+4. Add to cart button in product page

@@ -1,0 +1,107 @@
+body {
+    background-color: #f6f6f6;
+}
+.hero {
+    background: url('../../assets/Banner_Home.jpg') no-repeat center center/cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    position: relative;
+}
+
+.hero-title {
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero-title .banner-Max {
+    /* font-size: 5rem; */
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.hero h1, .hero p {
+    z-index: 1;
+}
+
+.hero .btn {
+    z-index: 1;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero .btn-outline-primary {
+    /* color: #000; */
+    color: darkgreen;
+    /* border-color: #000; */
+    border-color: darkgreen;
+}
+
+.hero .btn-outline-primary:hover {
+    /* background-color: #000; */
+    background-color: darkgreen; 
+    color: #fff; 
+}
+
+.featured-products {
+    padding: 50px 0;
+}
+
+.featured-products h2 {
+    margin-bottom: 30px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    min-height: 75vh;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: contain;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.offer-box {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.discount {
+    font-size: 1.2rem;
+    color: green;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mrp {
+    color: grey;
+    font-size: 1rem;
+}

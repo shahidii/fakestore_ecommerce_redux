@@ -1,0 +1,58 @@
+/* General reset */
+/* body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  } */
+  
+  /* Error page background */
+  .error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Content wrapper */
+  .content-wrapper {
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  /* Error title styling */
+  .error-title {
+    font-size: 120px;
+    font-weight: bold;
+    /* color: #ff9900; */
+    color: darkred;
+    margin: 0;
+  }
+  
+  /* Error subtitle styling */
+  .error-subtitle {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #0a0a0a;
+  }
+  
+  /* Error description styling */
+  .error-description {
+    font-size: 18px;
+    color: #434343;
+    margin-bottom: 30px;
+  }
+  
+  /* Button styling */
+  .error-page .btn {
+    padding: 14px 26px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid;
+    transition: background-color 0.3s ease;
+  }
+  
+ 

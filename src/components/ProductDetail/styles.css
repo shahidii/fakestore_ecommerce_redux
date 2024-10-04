@@ -1,0 +1,59 @@
+/* Product Detail Container */
+.product-detail-container {
+  padding: 40px;
+  background-color: #f8f9fa;
+}
+
+/* Product Detail Content */
+.product-detail-content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px; /* Space between image and info */
+}
+
+/* Product Detail Image */
+.product-image {
+  flex: 1; /* Image section takes up space */
+}
+
+.product-detail-image {
+  width: 100%; /* Full width to fit within flex */
+  max-width: 300px; /* Maximum width of image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: rounded corners */
+}
+
+/* Product Info Section */
+.product-info {
+  flex: 2; /* Info section takes more space */
+}
+
+/* Product Detail Title */
+.product-detail-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Product Detail Description */
+.product-detail-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Product Detail Price */
+.product-detail-price {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Loading, Error, and No Products Messages */
+.loading-message,
+.error-message,
+.no-products-message {
+  text-align: center;
+  font-size: 18px;
+  color: #dc3545;
+}
